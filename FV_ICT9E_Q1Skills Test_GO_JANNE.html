@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Q1 Skills Test</title>
+    <style>
+
+        body{
+               font-family: Arial, sans-serif; 
+               background-img: ("https://cdn.pixabay.com/photo/2022/10/20/15/50/robot-7535173_1280.jpg");
+               width: insert width;
+               margin: 0 auto; 
+               background: rgb(118, 60, 226);
+               padding: 20px; 
+               border-radius: 10px;
+                   
+               }
+        img{
+         width: 250px; 
+         height: 250px;
+         border-radius: 4px; 
+     
+        }
+           input[type="submit"], select, textarea {
+           width: 94%;
+           padding: 15px;
+           border: 1px solid white ;
+           border-radius: 5px;
+           text-align: center;
+
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <h1>OBMC Robotics Club Application Form</h1>
+        <img src="https://cdn.pixabay.com/photo/2022/10/20/15/50/robot-7535173_1280.jpg">
+
+        <h2>Welcome Grade 9 Students!</h2>
+        <p>Join the OBMC Grade 9 Robotics Club to explore coding, mechanics, and electronics!</p>
+        <<form>
+            <div class="group"><label>Full Name:</label><input type="text" required></div>
+            <div class="group"><label>Email:</label><input type="email" required></div>
+            
+            <div class="group">
+                <p><b>Grade 9 Experience:</b></p>
+                <input type="radio" id="r1" name="exp" value="1"><label for="r1">Beginner</label><br>
+                <input type="radio" id="r2" name="exp" value="2"><label for="r2">Intermediate</label>
+            </div>
+
+            <div class="group">
+                <p><b>Interests:</b></p>
+                <input type="checkbox" id="c1"><label for="c1">Coding</label><br>
+                <input type="checkbox" id="c2"><label for="c2">Building</label>
+            </div>
+
+            <div class="group">
+                <label>Preferred Role:</label>
+                <select><option>Grade 9 Programmer</option><option>Grade 9 Builder</option></select>
+            </div>
+
+            <div class="group"><label>Reason to Join:</label><textarea rows="3"></textarea></div>
+            <button type="submit" class="btn">Submit Application</button>
+        </form>
+    </div>
+</body>
+</html>
